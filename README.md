@@ -1,4 +1,4 @@
 # Introduction-To-Terraform
 
-## 1st example: Top Level Blocks (providers, resources, and data sources)
-Script: top-level-blocks-examples.tf 
+## 1st Example: top-level-blocks-examples.tf
+Top Level Blocks showing block examples for providers, resources, and data sources.
