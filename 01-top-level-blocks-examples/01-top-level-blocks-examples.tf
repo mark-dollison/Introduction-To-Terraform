@@ -13,6 +13,7 @@ terraform {
 # Block-2: Providers Block
 provider "azurerm" {
   features {}
+  skip_provider_registration = true
 }
 
 
@@ -28,12 +29,4 @@ resource "azurerm_resource_group" "myrg" {
 # Block: Data sources block
 data "azurerm_resource_group" "example" {
   name = "existing-rg-001"
-}
-
-output "id" {
-  value = data.azurerm_resource_group.example.id
-}
-
-output "location" {
-  value = data.azurerm_resource_group.example.location
 }
