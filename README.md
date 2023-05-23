@@ -5,7 +5,8 @@
 2. Once downloaded, unzip the file to your desired folder location.
 3. Type "sysdm.cpl" to open the System Properties window. Click on Advanced then Environment Variables.
 4. Find the Path environment variable then click on Edit. 
-5. On the Edit environment variable dialog, click New then input the folder path of the Terraform executable file.
+5. On the Edit environment variable dialog, click New then input the folder path where the Terraform executable file is located.
+6. To test, open command prompt then type "terraform version".
 
 ## Scripts used:
 - [01-top-level-blocks-examples.tf](01-top-level-blocks-examples/01-top-level-blocks-examples.tf)
